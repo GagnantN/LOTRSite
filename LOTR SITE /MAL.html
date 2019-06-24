@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"
+    content="Stephane, Nicolas, Kevin">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleLOTR.css">
+    <link rel="icon" href="LOTR/Logo copie.ico" />
+    <title> Les Tenèbres </title>
+    <script>
+    
+            function myFunction() {
+            let popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+            popup.play(true);
+            setTimeout(continueExecution, 5000)
+            }
+        
+            function continueExecution()
+            {
+                window.location.href="./LOTR.html";
+            }
+            </script>    
+</head>
+
+<header> 
+
+    <h1><a href="LOTR.html" onclick="you-shall-not-pass.mp4"></a>
+
+        <ul class="flex-container-responsive" id=Titre-Mal >
+            <li class="flex-item"><img src="LOTR/sauron .jpeg" width="100" height="100"></li>
+            <li class="flex-item">Les Tenèbres</li>
+            <li class="flex-item"><img src="LOTR/sauron .jpeg" width="100" height="100"></li> 
+        </ul>
+    </h1>
+
+</header>
+
+<body id=trois>
+    
+    <ul class="flex-container-responsive" id=paragraphe >
+        <li class="flex-item"> Bienvenue au Mordor misérable larve, le seigneur Sauron est satisfait de ta décision (en même temps il est aussi satisfait de toi que quand il se cure les dents avec tes os) donc ne prends pas trop la grosse tête petit push-dug, je serai intransigeant, tu crois être le héros et bien laisse tomber.</li>
+        <li class="flex-item"> Tu es maintenant un soldat de l’armée de notre maître à tous. Tu vas être assigné à une division suivant ta race, tes armes de prédilection mais aussi ton cerveau de glob . Ne me déçois pas sinon la seule utilité que je te trouverais c’est quand il faudra nourrir les Wargs. </li>
+        <li class="flex-item"> Tu m’écoutes snaga ? </li>
+        <li class="flex-item"> Le seigneur a des généraux partout à travers la Terre du Milieu, tu les rejoindras plus tard. Pour l’instant tu restes à un campement qui se situe autour de Barak-Dur. Ils te diront quoi faire allez file j’ai perdu assez de temps comme ça skai !</li>
+    </ul>
+   
+    <ul class="flex-container-responsive" id=Uruk-hai>
+        <li class="flex-item"> Les Huruk-Hais existent depuis l’an 2 475 du troisième âge, ils ont été créer au Mordor par Sauron (mais personne ne sait comment). Par rapport au Snaga, ils sont plus grands, ils ont la peau noire, le sang noir, de petits yeux et sont bien plus endurants. Enfin ils craignent moins la lumière que les Snaga. Passant au fur et à mesure de commandants  à légions entières, méprisant toutes les autres races d’orques qui les qualifient d’inférieur, Les Huruk-Hais utilisent des armes aux corps-à-corps. Véritable machine à tuer qui ne vivent d’ailleurs que pour ça. </li>
+        <li class="flex-item"><img src="LOTR/Orcs .jpeg" class="image" alt="ORCS" width="350"></li>
+    </ul>
+  
+    <ul class="flex-container-responsive" id=Semi-Orc>
+        <li class="flex-item"><img src="LOTR/Uruk-hai.jpg" class="image" alt="uruk-hai" width="250"></li>
+        <li class="flex-item"> Les Semi-Orcs sont des Huruk-Hais  croisés avec des hommes. Tout est question de magie, cela vient du sang des hommes Dundlande qui ont fait serment de servir le magicien Saroumane. Ils sont massifs, possédant les particularités des Huruk-Hai avec des traits plus humains, et la peau un peu plus claire. Ils utilisent une grande variété d’armes allant de la lance mesurant 3 mètres à des arbalètes lourdes . </li>
+    </ul>
+
+    <ul class="flex-container-responsive" id=Gobelin>
+        <li class="flex-item"> Les Gobelins sont des orques vivant dans les cavernes, principalement dans la Moria et les Monts Brumeux. Leur petite taille leur permet de se faufiler dans les crevasses et leurs grands yeux noirs les rendent nyctalope . Les Gobelins sont les seuls orques capables de chevaucher les terribles Wargs. </li>
+        <li class="flex-item"><img src="LOTR/Gobelin_de_la_Moria.jpg" class="image" alt="Gobelins" height="250"></li>
+    </ul>
+
+    <ul class="flex-container-responsive" id=Troll>
+        <li class="flex-item"><img src="LOTR/Troll.jpg" class="image" alt="Troll" width="250"></li>
+        <li class="flex-item"> Pour les trolls, dont la création remonte bien avant le premier âge sont d’abord des serviteurs de Morgoth et plus tard, de Sauron. Ils se démarquent par leurs grandes tailles et surtout par leurs bêtises.  Généralement, ils sont utilisés comme troupe de choc,  ou alors des tâches plus ingrates comme ouvrir les grandes portes du Mordor. Sauron les fit devenir encore plus dangereux en les mutant en Olog-hait, plus intelligent et capable de parler la langue de Sauron. </li>
+    </ul>
+    
+    <h3 class="sauron" class="flex-container-responsive" id = Retour><a onclick="myFunction()">Euh... Trompé de porte !</a></h3>
+
+
+</body>
+
+<footer>
+        <p class="paragraph">- LOTR. La Bataille De La Terre Du Milieu by Stephane, Nicolas, Kevin - 22/02/2019 - </p>
+
+    <div class="popup" onclick="myFunction()">
+        <video class="popuptext" id="myPopup">
+            <source src="VIDEO/you-shall-not-pass.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+
+</footer>
+</html>

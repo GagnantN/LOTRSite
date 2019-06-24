@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"
+    content="Stephane, Nicolas, Kevin">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleLOTR.css">
+    <link rel="icon" href="LOTR/Logo copie.ico" />
+    <title>La Lumière </title>
+
+    <script>
+    
+            function myFunction() {
+            let popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+            popup.play(true);
+            setTimeout(continueExecution, 7000)
+            }
+        
+            function continueExecution()
+            {
+                window.location.href="./LOTR.html";
+            }
+        </script>   
+</head>
+<header>
+    <h1><a href="LOTR.html" onclick="une-mort-certaine-gimli.mp4"></a>
+        <ul class="flex-container-lumiere" id=lumiere>
+                <li class="flex-item">
+                    <img src="LOTR/arbre.jpg" class="image" width="100" height="100">  
+                </li>
+                <li class="flex-item"> 
+                    La Lumière 
+                </li>
+                <li class="flex-item">
+                    <img src="LOTR/arbre.jpg" width="100" height="100">
+                </li>
+                
+        </ul>
+    </h1>
+
+</header>
+
+<body id=deux>
+
+    <ul class="flex-container-responsive" id=paragraphe >
+        <li class="flex-item"> Bienvenu mon ami, nous sommes les peuples libres, ceux qui défient la volonté de Sauron. Dans nos rangs nous comptons les elfes, les nains et les hommes majoritairement. Vous êtes inscrit pour devenir un soldat et sauver la Terre du Milieu </li>
+        <li class="flex-item"> Nous sommes moins nombreux que les légions du Mordor, mais nos coeurs sont sans failles. </li>
+        <li class="flex-item"> Je me nomme Irlandil, comme vous pouvez vous en douter je suis un elfe. J’ai été envoyé par le seigneur Elrond, le roi de la dernière demeure des elfes sur la Terre du Milieu, Focombe. Suivant votre choix, vous allez vous retrouver dans des camps d’entraînement propre à chacune des races. </li>
+        <li class="flex-item"> Pour les elfes sa sera Focombe, pour les nains vous irez à la montagne d’Erebor et enfin pour les humains c’est à Minas Tirith. </li>
+        <li class="flex-item"> Sur ce compagnon, je vous laisse combattez fièrement  ! </li>
+    </ul>
+           
+    <ul class="flex-container-responsive" id=Hommes>
+        <li class="flex-item"> Le peuple des hommes est l’un plus rependu des peuples libres, même si certain ont choisi de servir Sauron, tel que les Harads, les runs ou encore les pirates de Dun, les plus connus sont les Nasguls.  Les humains du côté des peuples libres ont le Gondor et le Rohan qui comporte la plus grande population humaine. Leurs armées pour la première se composent d’unité équitable que ce soit en cavalerie, fantassins ou archers. Pour la deuxième, elle est surtout réputée pour sa cavalerie car le Rohan se situe dans les Grandes Plaines. Ils utilisent surtout des lances, des épées et des arcs longs. </li>
+        <li class="flex-item"><img src="LOTR/téléchargement.jpeg" class="image" alt="HOMME" width="250"></li>
+    </ul>
+          
+    <ul class="flex-container-responsive" id=Elfes>hidden
+        <li class="flex-item"><img src="LOTR/Legolas_logo.jpg" class="image" alt="ELF" width="250" height="250"></li>
+        <li class="flex-item"> Premier né des enfants d’Ilvatar, ils se sont éveillés en l’an 1050 de l’âge des arbres, sur les rives d’un lac à l’Ouest de la Terre du Milieu et furent découverts par les espions de Mailcord. Ce dernier en ordonna la capture et donna naissance aux premiers orques. Les elfes sont un peuple fière, discret mais doté des meilleurs archers . C’est d’ailleurs un elfe du nom de Sauron qui créa les anneaux de pouvoirs avec l’aide du forgeron Célebrimbor, un seigneur elfe d’antan tué par Sauron une fois que celui-ci n’eut plus besoin de lui. Leurs armées se composent en grande partie  d’archers redoutés par les armées de la Terre du Milieu. </li>
+    </ul>
+        
+    <ul class="flex-container-responsive" id=Nains>
+        <li class="flex-item"> Les nains sont un peuple vivant dans les mines pour extraire toutes les richesses du sol. Ils sont surtout connus pour leurs soifs d'or, du combat et de la beuverie. Les nains sont des êtres de petite taille . Ils refont surface pour conquérir leur pour, grâce à leur imposante richesse et à leurs puissantes armées composées d’infanteries lourdes. Ils trancheront leurs destinées à grands coups de hache. </li>
+        <li class="flex-item"><img src="LOTR/gloin.jpg" class="image" alt="NAIN"width="250"></li>
+    </ul>
+        
+        
+    <ul class="flex-container-responsive" id=Ents>
+        <li class="flex-item"><img src="LOTR/Ent.jpg" class="image" alt="ENTS" width="250"></li>
+        <li class="flex-item"> Les Ents, sont les esprits de la forêt, des créatures à l'apparence d'arbres qui sont le peuple le plus ancien de la Terre du Milieu. L'aspect des Ents peut varier de manière considérable selon l'essence d'arbre à laquelle ils s'identifient. Quoique n'étant pas des guerriers, ils ont pour rôle de protéger les forêts de la Terre du Milieu des orques ou autres créatures envahissantes. Ils ne prennent pas de décisions rapides et sont lents de tempérament, mais peuvent être des adversaires redoutables, comme le montre leur attaque sur l'Isengard, qui réduit à néant les forces de Saroumane. </li>
+    </ul>
+            
+    <h3 class="gimli" class="flex-container-responsive" id = Retour><a onclick="myFunction()">Euh... Trompé de porte !</a></h3>
+
+   
+
+</body>
+
+<footer>
+
+    <p class="paragraph">- LOTR. La Bataille De La Terre Du Milieu by Stephane, Nicolas, Kevin - 22/02/2019 - </p>
+
+    <div class="popup" onclick="myFunction()">
+        <video class="popuptext" id="myPopup">
+            <source src="VIDEO/une-mort-certaine-gimli.mp4" type="video/mp4">
+        </video>
+    </div>    
+
+</footer>
+</html>

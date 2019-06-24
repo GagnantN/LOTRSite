@@ -1,0 +1,369 @@
+@import "compass/css3";
+
+/*Titre */
+
+.flex-container-responsive#accueil{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: black;
+}
+
+/* Organisation du Mal */
+
+.flex-container-responsive#Titre-Mal{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: black;
+}
+
+.flex-container-responsive#Uruk-hai{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-container-responsive#Semi-Orc{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-container-responsive#Gobelin{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-container-responsive#Troll{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Organisation du Bien */
+
+.flex-container-lumiere#lumiere{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: black;
+}
+
+.flex-container-responsive#Hommes{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-container-responsive#Elfes{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-container-responsive#Nains{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-container-responsive#Ents{
+    padding: 10;
+    margin-right: 10;
+    margin-left: 10;
+    list-style: none; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-basis: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-container-responsive#paragraphe {
+  padding: 10;
+  margin-right: 10;
+  margin-left: 10;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-box-flex: row wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Marge */
+
+.flex-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table
+{align-content: center;
+margin: auto; }
+
+div {
+    width: 200px;
+    height: 200px;
+    display:flex;
+    position: relative;
+}
+body#un{
+    background-image: url("LOTR/carte.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body#deux{
+    background-image: url("LOTR/carte.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+body#trois{
+    background-image: url("LOTR/carte.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#BIEN:hover
+{opacity: 0.5;  
+}
+#MAL:hover
+{opacity: 0.5;  
+}
+
+@font-face 
+{
+font-family: ringbearer;
+src: url('font/RINGM___.TTF');
+}
+
+@font-face
+{
+font-family: evildead;    
+src: url('font/ARMYD___.TTF');
+}
+
+@font-face
+{
+font-family: anatar;
+src: url('font/tnganb.ttf');
+}
+
+#accueil
+{
+    font-family: ringbearer;
+    color: rgb(255, 215, 0);
+    font-size: 150%;
+}
+
+#lumiere
+{
+    font-family: anatar;
+    color: rgb(45, 209, 182);
+    font-size: 150%;
+}
+
+#Titre-Mal
+{
+    font-family: evildead;
+    color:red;
+    font-size: 300%;
+}
+
+.gimli
+{
+    text-align: center;
+    color: rgb(36, 170, 36);
+    font-size: 180%
+}
+
+.sauron
+{
+    text-align: center;
+    color: rgb(197, 36, 15);
+    font-size: 180%
+}
+
+/* VIDEO MAL */
+
+
+.popup .popuptext {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    width: 400px;
+    border-radius: 12px;
+    z-index: 1;
+    bottom: 50px;
+    margin-left: -70px;
+  }
+  
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
